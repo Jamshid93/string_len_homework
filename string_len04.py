@@ -6,7 +6,5 @@ def main(s):
     Returns:
         string
     """
-    if len(s)%2==0:
-       answer= (len(s)*"*")
-    return answer
+    return (len(s)*"*")
 print(main("code"))
